@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Model artifacts (besar, jangan push)
+*.pt
+*.pth
+*.ckpt
+scaler.joblib
+*.joblib
+
+# Data
+data/tokenized/
+vectorstore/
+predict.db
+*.db
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Screenshots
+jarvis_*.png
